@@ -1,0 +1,9 @@
+I actually forget the question at this point. Oh yeah, No I remember. Why does a process like the 'diff' command make such a difference?
+
+It is because it allows me to easily find th parts that changed.
+
+If you have a problem with a program, and something didn't work after your last update. You can quickley find a change.
+
+Once that change is found, you can fix it.
+
+Very helpful with Typos.
