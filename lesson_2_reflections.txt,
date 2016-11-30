@@ -1,24 +1,21 @@
-When you run 'git init' in a new directory, it creates a hidden folder called .git.. This is hidden because Apple automatically hides things with . in front of them.
 
-There is nothing yet committed. There is no history. I guess you'll have to hit git commit to actually make it happen.
-
-To the second question, I am not entirely sure what the stage area is. HOwever, I suppose I will say that it is the area in which you make changes. It is the area that is accessed by the user
-
-To the third question, you can use this staging area by only commiting after you have made those logical changes.
-
-Diagrams help me visualize branch structure because they are pretty.
-
-The rest of these questions do not yet appear to be answerable.
-
-Perhaps they are to be answered as I go through this lesson.
 
 What happens when you initialize a repository? Why do you need to do it?
 
+Answer: It creates the hidden .git file that you can use to commit changes to.. yay
+
 How is the staging area different from the working directory and the repository?
+
+Answer: It is not something you edit directly. Yet it is also not something stored in .git directoy
+
 What value do you think it offers?
+
+It allows you to bundle lots of things together. Commit them all at once, instead of in atomistic commits.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+Only make the commit once you have made all those changes.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
