@@ -19,9 +19,15 @@ Only make the commit once you have made all those changes.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Answer: I have a lot of caffiene in my body and I'm ansy and I want to get out of this office and enjoy my friday now.
+
+Real Answer: You can make a branch called "special feature" o r "some other thing" or "colorized etc". You can than work on these feature and opossible merge them later.
+
+I have not yet been through what mergin is.
+
 
 How do the diagrams help you visualize the branch structure?
-
+Answer: Each Commit remembers only a single, one way, link on a chain to its parent. Branches help visualize this relationship.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
