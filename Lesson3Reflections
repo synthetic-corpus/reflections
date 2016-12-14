@@ -2,3 +2,7 @@ When would you want to use a remote repository rather than keeping all your work
 local?
 
 Answer: When I am working on project that many people, possibly in many geographic locations, are all working on. That is one reason among probably a dozen.
+
+Why mihg you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repositroy?
+
+Answer: First, pulling takes more bandwidth. Not a huge thing to consider with most companies, but something worth nothing. Second, when collaborating with others, you are probably working on something that won't affect them and vice versa. Pulling might be a waste of time. Third, if you are the only person working the repo, everything you need should already be local. Pulling sounds like a good idea if your working on a new machine or several different machines at the same time, but otherwise it seems that the repo serves as a back up and place to share things primarily.
