@@ -23,7 +23,7 @@ Answer: I have a lot of caffiene in my body and I'm ansy and I want to get out o
 
 Real Answer: You can make a branch called "special feature" o r "some other thing" or "colorized etc". You can than work on these feature and opossible merge them later.
 
-I have not yet been through what mergin is.
+I have not yet been through what merge is.
 
 
 How do the diagrams help you visualize the branch structure?
@@ -33,3 +33,7 @@ the diagram the way we do?
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+Answer: Automatic Merging is quick and easy. It is best done when one branch's code do not overlap with another branch's code. That is only one of the two branches changes the common ancestor. While the other only adds new code.
+
+Manual merging is probably the best and important when more than one person is working on a code. Or when a new branch is created to perhaps clean up previous code. E.g. Turning long sections of code into fuctions/processes, refractoring, etc.
