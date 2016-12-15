@@ -3,6 +3,14 @@ local?
 
 Answer: When I am working on project that many people, possibly in many geographic locations, are all working on. That is one reason among probably a dozen.
 
-Why mihg you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repositroy?
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repositroy?
 
 Answer: First, pulling takes more bandwidth. Not a huge thing to consider with most companies, but something worth nothing. Second, when collaborating with others, you are probably working on something that won't affect them and vice versa. Pulling might be a waste of time. Third, if you are the only person working the repo, everything you need should already be local. Pulling sounds like a good idea if your working on a new machine or several different machines at the same time, but otherwise it seems that the repo serves as a back up and place to share things primarily.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Answer: Forks make entire copies of reposititories at the remote level. This seems most useful when you are copying an entire project, but the orginal project's integrity must be protected. It is probably also useful for training purposes. As someone might have a complete or incomplete project, and is asking several teams to come up with different solutions. It might also be useful if the owner of the original project intends his/her project to be adjusted, tweaked, etc by other teams.
+
+Branches are splits within the chain of commits. They are useful if one section of the code is to be experimented on, adjusted, or have new features added without working on the rest of the code. They are also useful if several developers are working on the same repo, but have different duties and responsibilities within the code itself.
+
+The clone fuction copies a repo from either a remote repo or a local repo. I honestly do not know why you would have two copies of a repo locally, but cloning from remote location distance make sense.
