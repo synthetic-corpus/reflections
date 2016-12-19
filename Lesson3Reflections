@@ -14,3 +14,7 @@ Answer: Forks make entire copies of reposititories at the remote level. This see
 Branches are splits within the chain of commits. They are useful if one section of the code is to be experimented on, adjusted, or have new features added without working on the rest of the code. They are also useful if several developers are working on the same repo, but have different duties and responsibilities within the code itself.
 
 The clone fuction copies a repo from either a remote repo or a local repo. I honestly do not know why you would have two copies of a repo locally, but cloning from remote location distance make sense.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Answer: First, it means that you can begin working without having to worry about conflicts with the remote repo. Merge conflicts should be avoided when possible, because they will take up valuable time. Nobody wants that. That ruins everyone's day. There is no loss of time to doing a git-pull before you work. There may be much lost time if you have to manually merge.
