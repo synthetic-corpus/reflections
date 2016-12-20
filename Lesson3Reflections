@@ -18,3 +18,7 @@ The clone fuction copies a repo from either a remote repo or a local repo. I hon
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 Answer: First, it means that you can begin working without having to worry about conflicts with the remote repo. Merge conflicts should be avoided when possible, because they will take up valuable time. Nobody wants that. That ruins everyone's day. There is no loss of time to doing a git-pull before you work. There may be much lost time if you have to manually merge.
+
+How would you collaborate without useing Git or Github? What would be easier and what would be harder?
+
+Answer: Without Github, I suppose using Google drive or something similiar might work. It allows a little bit of version control, but not much. It would be much more difficult to control parts of project as opposed to the entire project itself. GIt allows the use of branches, merge (aka 'pull requests') requests, and lets you know when there is a conflict between merges. A google doc will not allow for this, and only allows the entire project to be updated. I don't see how collaborateing would be much eaiser, unless the project were quite simple.
